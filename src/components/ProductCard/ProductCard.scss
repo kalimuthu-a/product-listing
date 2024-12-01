@@ -1,0 +1,18 @@
+.product-card {
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+  align-items: center;
+  margin: 16px 0;
+  border: 1px solid #ccc;
+
+  .prod-details {
+    padding: 0 0.75rem;
+    background-image: linear-gradient(to right, #3574f300, #d2d8ef);
+  }
+
+  img {
+    max-height: 10rem;
+    max-width: 5rem;
+    padding: 0 0.75rem;
+  }
+}
